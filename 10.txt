@@ -1,0 +1,5 @@
+acc=`cat /etc/passwd | wc -l`
+cur_log=`who | wc -l`
+
+echo "Total users      : $acc"
+echo "Currently logged : $cur_log"
